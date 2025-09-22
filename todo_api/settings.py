@@ -41,7 +41,7 @@ ROOT_URLCONF = 'todo_api.urls'
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # your React dev server
+    "http://localhost:5174",  # your React dev server
 ]
 CORS_ALLOW_HEADERS = list(default_headers) + [
     "content-type",  # allow content-type header
